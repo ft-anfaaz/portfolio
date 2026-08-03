@@ -1,0 +1,220 @@
+{
+  "profile": {
+    "name": "Anfaz Edakkavil Aboobakar",
+    "shortName": "Anfaz",
+    "tagline": "I build enterprise software and intelligent systems using Java, Python, SQL, and modern AI technologies.",
+    "role": "Software Engineer",
+    "specialization": "Artificial Intelligence & Data",
+    "location": "Cork, Ireland",
+    "yearsOfExperience": 4,
+    "bio": "Software Engineer with nearly four years of experience developing and supporting enterprise insurance solutions using XQuery, Java, SQL, XML, Microsoft SQL Server, and MongoDB. Experienced in document-generation systems, query optimisation, production deployments, Agile delivery, and cross-functional collaboration. MSc graduate in Artificial Intelligence with hands-on experience in machine learning, deep learning, natural language processing, big data processing, transformer models, multimodal AI, and explainable AI. Based in Cork, Ireland, and open to relocation.",
+    "avatarImage": "/avatar.png",
+    "avatarSvg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"g\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#a855f7\"/><stop offset=\"50%\" stop-color=\"#ec4899\"/><stop offset=\"100%\" stop-color=\"#f97316\"/></linearGradient></defs><circle cx=\"100\" cy=\"100\" r=\"98\" fill=\"#131313\" stroke=\"url(#g)\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"78\" fill=\"url(#g)\" opacity=\"0.12\"/><text x=\"50%\" y=\"54%\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Kanit, sans-serif\" font-size=\"64\" font-weight=\"600\" fill=\"url(#g)\">AA</text></svg>",
+    "social": {
+      "github": "https://github.com/ft-anfaaz",
+      "instagram": "https://www.instagram.com/ft.anfaaz?igsh=MXhiZGJpd2d6NWdqbw%3D%3D&utm_source=qr",
+      "linkedin": "https://www.linkedin.com/in/anfaz-e/",
+      "email": "anfaze98@gmail.com",
+      "phone": "+353 892007825",
+      "website": ""
+    }
+  },
+  "skills": {
+    "categories": [
+      {
+        "name": "Languages",
+        "items": [
+          "Java",
+          "Python",
+          "SQL",
+          "XQuery",
+          "TypeScript",
+          "C",
+          "C++",
+          "HTML",
+          "CSS",
+          "XML"
+        ]
+      },
+      {
+        "name": "Frameworks",
+        "items": [
+          "Angular",
+          "Django",
+          "PyTorch",
+          "Bootstrap",
+          "PySpark"
+        ]
+      },
+      {
+        "name": "Developer Tools",
+        "items": [
+          "Postman",
+          "VS Code",
+          "NetBeans",
+          "Altova XMLSpy",
+          "Google Colab",
+          "Ollama",
+          "Microsoft SQL Server",
+          "MySQL",
+          "MongoDB",
+          "SVN"
+        ]
+      },
+      {
+        "name": "AI & Data Libraries",
+        "items": [
+          "Hugging Face Transformers",
+          "scikit-learn",
+          "pandas",
+          "NumPy",
+          "Matplotlib",
+          "Captum",
+          "OpenAI Whisper"
+        ]
+      },
+      {
+        "name": "AI & Data",
+        "items": [
+          "Machine Learning",
+          "Deep Learning",
+          "Natural Language Processing",
+          "Multimodal AI",
+          "Explainable AI",
+          "Big Data Processing"
+        ]
+      }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Infosys Limited",
+      "role": "Technology Analyst",
+      "period": "Aug. 2021 — Jul. 2025",
+      "location": "Bangalore, India",
+      "summary": "Developed and supported enterprise insurance document-generation solutions for the Aetna platform on Majesco Cloud Insurer, earning three promotions during the tenure.",
+      "highlights": [
+        "Developed and maintained document-generation components for the Aetna insurance platform on Majesco Cloud Insurer, primarily using XQuery with supporting Java and SQL development.",
+        "Designed, enhanced, and supported more than 30 insurance document templates, XML transformations, layouts, and data mappings within the Document-as-a-Service application.",
+        "Optimised XQuery logic and database queries across Microsoft SQL Server and MongoDB, improving query execution and reducing insurance document-generation time.",
+        "Supported monthly production releases using SVN checkout and Majesco DaaS deployment processes, including release validation, troubleshooting, and post-deployment support.",
+        "Delivered enhancements across agent onboarding, group setup and enrolment, claims upgrade merges, and insurance billing scenarios while supporting regulatory and product changes.",
+        "Collaborated with business analysts, QA engineers, frontend developers, and integration teams in a 20-member Agile team while serving as one of two dedicated DaaS engineers and mentoring junior team members."
+      ]
+    }
+  ],
+  "services": [
+    {
+      "title": "Software Development",
+      "description": "Building maintainable applications and enterprise components using Java, Python, SQL, XQuery, TypeScript, XML, and modern development frameworks."
+    },
+    {
+      "title": "AI & Machine Learning",
+      "description": "Developing machine learning, deep learning, NLP, transformer, multimodal, and explainable AI solutions."
+    },
+    {
+      "title": "Data & Database Solutions",
+      "description": "Designing data workflows and optimising queries across Microsoft SQL Server, MySQL, MongoDB, pandas, and PySpark."
+    },
+    {
+      "title": "Enterprise Document Systems",
+      "description": "Creating XML transformations, document templates, layouts, data mappings, and deployment workflows for enterprise platforms."
+    }
+  ],
+  "projects": [
+    {
+      "id": "multimodal-depression-detection",
+      "title": "Multimodal Depression and Positive Affect Detection",
+      "subtitle": "Explainable multimodal AI for depression detection",
+      "description": "An end-to-end multimodal AI system combining XLM-RoBERTa text embeddings, audio-visual features, and MentalRoBERTa positive-affect representations. The system integrates independently trained encoders through projection layers and a neural fusion classifier, achieving an AUROC of 0.9867 and an F1-score of 0.9508.",
+      "stack": [
+        "PyTorch",
+        "OpenAI Whisper",
+        "Captum",
+        "Hugging Face Transformers",
+        "scikit-learn"
+      ],
+      "role": "AI Engineer",
+      "year": "2026",
+      "link": "",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "stock-market-analysis",
+      "title": "Stock Market Analysis and Price Prediction",
+      "subtitle": "Django application for market analysis and forecasting",
+      "description": "A Django web application that collects stock-market information from online sources, presents historical trends through interactive visualisations, and integrates a machine-learning pipeline to generate stock-price predictions from historical data.",
+      "stack": [
+        "Python",
+        "Django",
+        "Machine Learning",
+        "Web Scraping"
+      ],
+      "role": "Full-Stack Developer",
+      "year": "",
+      "link": "",
+      "image": "",
+      "highlight": true
+    },
+    {
+      "id": "parking-management-system",
+      "title": "Parking Management System",
+      "subtitle": "Java application for parking operations",
+      "description": "A Java and MySQL application for managing parking-space allocation, customer registration, vehicle records, bookings, and payments, with authentication, availability tracking, database operations, and reporting features.",
+      "stack": [
+        "Java",
+        "MySQL",
+        "NetBeans"
+      ],
+      "role": "Software Developer",
+      "year": "",
+      "link": "",
+      "image": "",
+      "highlight": true
+    }
+  ],
+  "education": [
+    {
+      "institution": "Munster Technological University",
+      "degree": "Master of Science in Artificial Intelligence",
+      "period": "Sept. 2025 — Sept. 2026",
+      "location": "Cork, Ireland",
+      "detail": "Result: 78.6%. Modules included Practical Machine Learning, Deep Learning, Natural Language Processing, Big Data Processing, Knowledge Representation and Reasoning, Decision Analytics, Metaheuristic Optimisation, and Software Agility."
+    },
+    {
+      "institution": "Sahyadri College of Engineering and Management",
+      "degree": "Bachelor of Engineering in Computer Science",
+      "period": "Jul. 2017 — Jun. 2021",
+      "location": "Mangalore, India",
+      "detail": "CGPA: 7.74. Modules included Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Software Testing, Web Technologies, and Python Programming."
+    }
+  ],
+  "certifications": [
+    {
+      "id": "infosys-sql",
+      "title": "Infosys Certified Database and SQL Professional",
+      "issuer": "Infosys",
+      "date": "09 Jul. 2024",
+      "image": "/certificates/infosys-sql.png",
+      "link": ""
+    },
+    {
+      "id": "infosys-python",
+      "title": "Infosys Certified Python Associate",
+      "issuer": "Infosys",
+      "date": "14 May. 2024",
+      "image": "/certificates/infosys-python.png",
+      "link": ""
+    },
+    {
+      "id": "infosys-agile",
+      "title": "Infosys Global Agile Developer Certification",
+      "issuer": "Infosys",
+      "date": "25 Apr. 2022",
+      "image": "/certificates/infosys-agile.png",
+      "link": ""
+    }
+  ],
+  "testimonials": []
+}
