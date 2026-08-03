@@ -1,6 +1,7 @@
 import { Github, Instagram, Linkedin, Mail, Globe } from "lucide-react";
 import type { CSSProperties } from "react";
 import type { SocialLinksData } from "../types/portfolio";
+import WhatsappIcon from "./icons/WhatsappIcon";
 
 interface SocialLinksProps {
   social: SocialLinksData;
@@ -23,6 +24,7 @@ type SocialEntry = {
 
 function buildHref(key: keyof SocialLinksData, value: string): string {
   if (key === "email") return `mailto:${value}`;
+  if (key === "whatsapp") return `https://wa.me/${value.replace(/\D/g, "")}`;
   return value;
 }
 
@@ -39,6 +41,7 @@ export default function SocialLinks({
       { key: "github", label: "GitHub", icon: Github },
       { key: "instagram", label: "Instagram", icon: Instagram },
       { key: "linkedin", label: "LinkedIn", icon: Linkedin },
+      { key: "whatsapp", label: "WhatsApp", icon: WhatsappIcon },
       { key: "email", label: "Email", icon: Mail },
       { key: "website", label: "Website", icon: Globe },
     ] as { key: keyof SocialLinksData; label: string; icon: typeof Github }[]

@@ -16,6 +16,7 @@
       "linkedin": "https://www.linkedin.com/in/anfaz-e/",
       "email": "anfaze98@gmail.com",
       "phone": "+353 892007825",
+      "whatsapp": "+353 892007825",
       "website": ""
     }
   },
@@ -93,6 +94,7 @@
       "period": "Aug. 2021 — Jul. 2025",
       "location": "Bangalore, India",
       "summary": "Developed and supported enterprise insurance document-generation solutions for the Aetna platform on Majesco Cloud Insurer, earning three promotions during the tenure.",
+      "logo": "/logos/infosys.png",
       "highlights": [
         "Developed and maintained document-generation components for the Aetna insurance platform on Majesco Cloud Insurer, primarily using XQuery with supporting Java and SQL development.",
         "Designed, enhanced, and supported more than 30 insurance document templates, XML transformations, layouts, and data mappings within the Document-as-a-Service application.",
@@ -136,7 +138,7 @@
       ],
       "role": "AI Engineer",
       "year": "2026",
-      "link": "",
+      "link": "https://github.com/ft-anfaaz/multimodal-depression-pa-detection",
       "image": "",
       "highlight": true
     },
@@ -180,14 +182,16 @@
       "degree": "Master of Science in Artificial Intelligence",
       "period": "Sept. 2025 — Sept. 2026",
       "location": "Cork, Ireland",
-      "detail": "Result: 78.6%. Modules included Practical Machine Learning, Deep Learning, Natural Language Processing, Big Data Processing, Knowledge Representation and Reasoning, Decision Analytics, Metaheuristic Optimisation, and Software Agility."
+      "detail": "Result: 78.6%. Modules included Practical Machine Learning, Deep Learning, Natural Language Processing, Big Data Processing, Knowledge Representation and Reasoning, Decision Analytics, Metaheuristic Optimisation, and Software Agility.",
+      "logo": "/logos/mtu.png"
     },
     {
       "institution": "Sahyadri College of Engineering and Management",
       "degree": "Bachelor of Engineering in Computer Science",
       "period": "Jul. 2017 — Jun. 2021",
       "location": "Mangalore, India",
-      "detail": "CGPA: 7.74. Modules included Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Software Testing, Web Technologies, and Python Programming."
+      "detail": "CGPA: 7.74. Modules included Data Structures and Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, Software Engineering, Software Testing, Web Technologies, and Python Programming.",
+      "logo": "/logos/sahyadri.png"
     }
   ],
   "certifications": [

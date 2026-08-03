@@ -80,6 +80,17 @@ footer[id] {
   box-shadow: 0 0 24px rgba(168, 85, 247, 0.35);
 }
 
+/* Sticky project-card stacking only kicks in at md+ — on mobile the card
+   content is often taller than the viewport, so pinning it would push the
+   bottom of the card (and its "LIVE PROJECT" link) permanently off-screen. */
+@media (min-width: 768px) {
+  .project-sticky-card {
+    position: sticky;
+    top: var(--sticky-top);
+    z-index: var(--sticky-z);
+  }
+}
+
 .no-mid-word-break {
   overflow-wrap: normal;
   word-break: normal;

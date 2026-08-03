@@ -4,8 +4,8 @@ import { usePortfolio } from "../hooks/usePortfolio";
 import SocialLinks from "./SocialLinks";
 
 const SOCIAL_PILL_CLASSNAME =
-  "flex h-[4.68rem] w-[4.68rem] items-center justify-center transition-opacity duration-200 hover:opacity-80";
-const SOCIAL_ICON_CLASSNAME = "h-[2.34rem] w-[2.34rem]";
+  "flex h-12 w-12 items-center justify-center transition-opacity duration-200 hover:opacity-80 sm:h-[4.68rem] sm:w-[4.68rem]";
+const SOCIAL_ICON_CLASSNAME = "h-6 w-6 sm:h-[2.34rem] sm:w-[2.34rem]";
 const SOCIAL_ICON_STYLE = {
   filter:
     "drop-shadow(0 0 6px rgba(168,85,247,0.7)) drop-shadow(0 0 16px rgba(236,72,153,0.5))",

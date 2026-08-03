@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Cloud, FolderOpen, MousePointer2, Smile } from "lucide-react";
+import { Cloud, FolderOpen, MousePointer2, Wifi } from "lucide-react";
 import { usePortfolio } from "../hooks/usePortfolio";
 
 function NeonGradientDefs() {
@@ -62,9 +62,9 @@ export default function AboutSection() {
       >
         <NeonGradientDefs />
         <FloatingIcon icon={Cloud} className="left-6 top-6 -rotate-6" delay={0} />
-        <FloatingIcon icon={FolderOpen} className="right-6 top-6 rotate-6" delay={0.1} />
-        <FloatingIcon icon={Smile} className="bottom-10 left-6 -rotate-3" delay={0.2} />
-        <FloatingIcon icon={MousePointer2} className="bottom-10 right-6 rotate-3" delay={0.3} />
+        <FloatingIcon icon={MousePointer2} className="right-6 top-6 rotate-6" delay={0.1} />
+        <FloatingIcon icon={Wifi} className="bottom-10 left-6 -rotate-3" delay={0.2} />
+        <FloatingIcon icon={FolderOpen} className="bottom-10 right-6 rotate-3" delay={0.3} />
 
         <motion.h2
           initial={{ opacity: 0, y: 16 }}

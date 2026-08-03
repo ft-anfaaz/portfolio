@@ -4,6 +4,7 @@ export interface SocialLinksData {
   linkedin: string;
   email: string;
   phone: string;
+  whatsapp: string;
   website: string;
 }
 
@@ -37,6 +38,7 @@ export interface Experience {
   location: string;
   summary: string;
   highlights: string[];
+  logo: string;
 }
 
 export interface Project {
@@ -58,6 +60,7 @@ export interface Education {
   period: string;
   location: string;
   detail: string;
+  logo: string;
 }
 
 export interface Service {

@@ -23,7 +23,10 @@ export default function EducationSection() {
       </motion.h2>
 
       <div>
-        {education.map((entry, index) => (
+        {education.map((entry, index) => {
+          const hasLogo = entry.logo.trim().length > 0;
+
+          return (
           <motion.div
             key={`${entry.institution}-${entry.period}`}
             initial={{ opacity: 0, y: 16 }}
@@ -32,9 +35,19 @@ export default function EducationSection() {
             transition={{ duration: 0.5, delay: (index % 4) * 0.05 }}
             className="grid grid-cols-1 gap-4 py-10 md:grid-cols-[120px_1fr]"
           >
-            <span className="text-5xl font-bold text-neutral-700 sm:text-6xl">
-              {toIndex(index + 1)}
-            </span>
+            {hasLogo ? (
+              <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-white p-3 sm:h-24 sm:w-24">
+                <img
+                  src={entry.logo}
+                  alt={`${entry.institution} logo`}
+                  className="h-full w-full object-contain"
+                />
+              </div>
+            ) : (
+              <span className="text-5xl font-bold text-neutral-700 sm:text-6xl">
+                {toIndex(index + 1)}
+              </span>
+            )}
 
             <div>
               <div className="mb-3 flex flex-wrap items-center gap-3">
@@ -55,7 +68,8 @@ export default function EducationSection() {
               </p>
             </div>
           </motion.div>
-        ))}
+          );
+        })}
       </div>
     </section>
   );

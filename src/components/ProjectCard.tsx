@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
+import type { CSSProperties } from "react";
 import type { Project } from "../types/portfolio";
 
 interface ProjectCardProps {
@@ -23,11 +24,13 @@ export default function ProjectCard({ project, index, total }: ProjectCardProps)
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.2 }}
       transition={{ duration: 0.6 }}
-      style={{
-        top: `${96 + index * 16}px`,
-        zIndex: index + 1,
-      }}
-      className="sticky mb-6 overflow-hidden rounded-3xl border border-white/10 bg-[#131313]"
+      style={
+        {
+          "--sticky-top": `${96 + index * 16}px`,
+          "--sticky-z": index + 1,
+        } as CSSProperties
+      }
+      className="project-sticky-card relative mb-6 overflow-hidden rounded-3xl border border-white/10 bg-[#131313]"
     >
       <div className="grid grid-cols-1 md:grid-cols-2">
         <div className="relative aspect-video md:aspect-auto">
@@ -59,9 +62,6 @@ export default function ProjectCard({ project, index, total }: ProjectCardProps)
               )}
             </div>
 
-            <h3 className="mb-1 text-2xl font-semibold text-white sm:text-3xl">
-              {project.title}
-            </h3>
             <p className="mb-4 text-sm font-medium text-neutral-500">{project.subtitle}</p>
 
             <p className="mb-6 text-sm leading-relaxed text-neutral-400 sm:text-base">
@@ -87,7 +87,7 @@ export default function ProjectCard({ project, index, total }: ProjectCardProps)
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-8 inline-flex w-fit items-center gap-2 rounded-full px-5 py-2.5 text-xs font-semibold tracking-wide text-black accent-gradient transition-transform duration-200 hover:scale-105"
+              className="neon-outline-pill mt-8 inline-flex w-fit items-center gap-2 rounded-full px-5 py-2.5 text-xs font-semibold tracking-wide text-white transition-transform duration-200 hover:scale-105"
             >
               LIVE PROJECT
               <ArrowUpRight className="h-3.5 w-3.5" />
