@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Cloud, FolderOpen, MousePointer2, Wifi } from "lucide-react";
+import { Cloud, Download, FolderOpen, MousePointer2, Wifi } from "lucide-react";
 import { usePortfolio } from "../hooks/usePortfolio";
 
 function NeonGradientDefs() {
@@ -53,6 +53,7 @@ function FloatingIcon({
 
 export default function AboutSection() {
   const { profile, skills } = usePortfolio();
+  const hasResume = profile.resumeUrl.trim().length > 0;
 
   return (
     <>
@@ -86,16 +87,24 @@ export default function AboutSection() {
           {profile.bio}
         </motion.p>
 
-        <motion.a
-          href="#contact"
+        <motion.div
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, amount: 0.4 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="neon-outline-pill mt-10 inline-block rounded-full px-8 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:scale-105"
+          className="mt-10 flex flex-wrap items-center justify-center gap-4"
         >
-          Contact Me
-        </motion.a>
+          {hasResume && (
+            <a
+              href={profile.resumeUrl}
+              download
+              className="neon-outline-pill inline-flex items-center gap-2 rounded-full px-8 py-3 text-sm font-semibold text-white transition-transform duration-200 hover:scale-105"
+            >
+              Download Resume
+              <Download className="h-4 w-4" />
+            </a>
+          )}
+        </motion.div>
       </section>
 
       <section id="skills" className="mx-auto max-w-5xl px-6 pb-28 md:px-10">

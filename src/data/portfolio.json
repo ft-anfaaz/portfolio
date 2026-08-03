@@ -9,6 +9,7 @@
     "yearsOfExperience": 4,
     "bio": "Software Engineer with nearly four years of experience developing and supporting enterprise insurance solutions using XQuery, Java, SQL, XML, Microsoft SQL Server, and MongoDB. Experienced in document-generation systems, query optimisation, production deployments, Agile delivery, and cross-functional collaboration. MSc graduate in Artificial Intelligence with hands-on experience in machine learning, deep learning, natural language processing, big data processing, transformer models, multimodal AI, and explainable AI. Based in Cork, Ireland, and open to relocation.",
     "avatarImage": "/avatar.png",
+    "resumeUrl": "/resume.pdf",
     "avatarSvg": "<svg viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><linearGradient id=\"g\" x1=\"0%\" y1=\"0%\" x2=\"100%\" y2=\"100%\"><stop offset=\"0%\" stop-color=\"#a855f7\"/><stop offset=\"50%\" stop-color=\"#ec4899\"/><stop offset=\"100%\" stop-color=\"#f97316\"/></linearGradient></defs><circle cx=\"100\" cy=\"100\" r=\"98\" fill=\"#131313\" stroke=\"url(#g)\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"100\" r=\"78\" fill=\"url(#g)\" opacity=\"0.12\"/><text x=\"50%\" y=\"54%\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"Kanit, sans-serif\" font-size=\"64\" font-weight=\"600\" fill=\"url(#g)\">AA</text></svg>",
     "social": {
       "github": "https://github.com/ft-anfaaz",

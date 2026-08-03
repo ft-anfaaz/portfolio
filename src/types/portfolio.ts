@@ -19,6 +19,7 @@ export interface Profile {
   bio: string;
   avatarImage: string;
   avatarSvg: string;
+  resumeUrl: string;
   social: SocialLinksData;
 }
 
