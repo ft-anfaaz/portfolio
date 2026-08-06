@@ -163,16 +163,16 @@
     {
       "id": "parking-management-system",
       "title": "Parking Management System",
-      "subtitle": "Java application for parking operations",
-      "description": "A Java and MySQL application for managing parking-space allocation, customer registration, vehicle records, bookings, and payments, with authentication, availability tracking, database operations, and reporting features.",
+      "subtitle": "Full-stack parking management",
+      "description": "A parking management system built as a full-stack Spring Boot web application. Features session-based authentication, transactional check-in/check-out with row-level slot locking, and a type-to-filter search UI, self-hosted on an Oracle Cloud VM with nginx and TLS.",
       "stack": [
         "Java",
-        "MySQL",
-        "NetBeans"
+        "Spring Boot",
+        "MySQL"
       ],
-      "role": "Software Developer",
-      "year": "",
-      "link": "",
+      "role": "Full-Stack Developer",
+      "year": "2019",
+      "link": "https://parking-manager.duckdns.org",
       "image": "",
       "highlight": true
     }
