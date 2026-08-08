@@ -51,6 +51,8 @@
       {
         "name": "Developer Tools",
         "items": [
+          "Git",
+          "GitHub",
           "Postman",
           "VS Code",
           "NetBeans",
