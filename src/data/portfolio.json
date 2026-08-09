@@ -101,7 +101,7 @@
       "highlights": [
         "Developed and maintained document-generation components for the Aetna insurance platform on Majesco Cloud Insurer, primarily using XQuery with supporting Java and SQL development.",
         "Designed, enhanced, and supported more than 30 insurance document templates, XML transformations, layouts, and data mappings within the Document-as-a-Service application.",
-        "Optimised XQuery logic and database queries across Microsoft SQL Server and MongoDB, improving query execution and reducing insurance document-generation time.",
+        "Optimised XQuery to reduce document-generation time and leveraged Microsoft SQL Server for production billing data retrieval and Postman API to apply business-driven changes to live records.",
         "Supported monthly production releases using SVN checkout and Majesco DaaS deployment processes, including release validation, troubleshooting, and post-deployment support.",
         "Delivered enhancements across agent onboarding, group setup and enrolment, claims upgrade merges, and insurance billing scenarios while supporting regulatory and product changes.",
         "Collaborated with business analysts, QA engineers, frontend developers, and integration teams in a 20-member Agile team while serving as one of two dedicated DaaS engineers and mentoring junior team members."
