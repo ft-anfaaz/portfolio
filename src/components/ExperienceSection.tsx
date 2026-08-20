@@ -66,7 +66,7 @@ export default function ExperienceSection() {
               </p>
 
               <ul className="space-y-2">
-                {job.highlights.slice(0, 3).map((highlight) => (
+                {job.highlights.map((highlight) => (
                   <li key={highlight} className="flex gap-3 text-sm text-neutral-300">
                     <span className="mt-2 h-1 w-1 shrink-0 rounded-full bg-neutral-500" />
                     <span>{highlight}</span>
