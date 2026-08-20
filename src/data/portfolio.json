@@ -62,7 +62,8 @@
           "Ollama",
           "Microsoft SQL Server",
           "MySQL",
-          "SVN"
+          "SVN",
+          "Jenkins"
         ]
       },
       {
@@ -95,7 +96,7 @@
       "logo": "/logos/infosys.png",
       "highlights": [
         "Rewrote XQuery transformation logic, with supporting Java and SQL development, across 30+ live insurance document templates for Aetna's platform on Majesco Cloud Insurer, cutting document generation time from 5 minutes to 1 minute and reducing recurring formatting defects by 80%.",
-        "Validated and troubleshot 25+ monthly production releases using SVN checkout and Majesco DaaS deployment tooling, resolving billing discrepancies by pulling records via Microsoft SQL Server and pushing business-approved corrections through a REST API, and confirming each release's changes reached Aetna's live platform as intended.",
+        "Validated and troubleshot 25+ monthly production releases using SVN, Jenkins and Majesco DaaS deployment tooling, resolving billing discrepancies by pulling records via Microsoft SQL Server and pushing business-approved corrections through a REST API, and confirming each release's changes reached Aetna's live platform as intended.",
         "Partnered with business analysts, QA engineers, frontend developers, and integration teams on a 20-person Agile team, serving as one of two dedicated engineers on the insurance document-generation (DaaS) platform.",
         "Delivered feature and enhancement work across agent onboarding, group setup and enrolment, and claims-upgrade merges, translating shifting regulatory and business requirements into production code.",
         "Mentored 3 junior engineers on XQuery development and DaaS system architecture, onboarding them to the codebase and reviewing their work, cutting their ramp-up time from roughly 4 weeks to 2 weeks."
