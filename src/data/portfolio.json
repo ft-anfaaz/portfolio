@@ -92,13 +92,12 @@
       "summary": "Developed and supported enterprise insurance document-generation solutions for the Aetna platform on Majesco Cloud Insurer, earning three promotions during the tenure.",
       "logo": "/logos/infosys.png",
       "highlights": [
-        "Developed and maintained document-generation components for the Aetna insurance platform on Majesco Cloud Insurer, primarily using XQuery with supporting Java and SQL development.",
-        "Designed, enhanced, and supported more than 30 insurance document templates, XML transformations, layouts, and data mappings within the Document-as-a-Service application.",
-        "Optimised XQuery to reduce document-generation time and leveraged Microsoft SQL Server for production billing data retrieval and Postman API to apply business-driven changes to live records.",
-        "Supported monthly production releases using SVN checkout and Majesco DaaS deployment processes, including release validation, troubleshooting, and post-deployment support.",
-        "Delivered enhancements across agent onboarding, group setup and enrolment, claims upgrade merges, and insurance billing scenarios while supporting regulatory and product changes.",
-        "Collaborated with business analysts, QA engineers, frontend developers, and integration teams in a 20-member Agile team while serving as one of two dedicated DaaS engineers and mentoring junior team members."
-      ]
+        "Rewrote XQuery transformation logic, with supporting Java and SQL development, across 30+ live insurance document templates for Aetna's platform on Majesco Cloud Insurer, cutting document generation time from 5 minutes to 1 minute and reducing recurring formatting defects by 80%.",
+        "Validated and troubleshot 25+ monthly production releases using SVN checkout and Majesco DaaS deployment tooling, resolving billing discrepancies by pulling records via Microsoft SQL Server and pushing business-approved corrections through a REST API, and confirming each release's changes reached Aetna's live platform as intended.",
+        "Partnered with business analysts, QA engineers, frontend developers, and integration teams on a 20-person Agile team, serving as one of two dedicated engineers on the insurance document-generation (DaaS) platform.",
+        "Delivered feature and enhancement work across agent onboarding, group setup and enrolment, and claims-upgrade merges, translating shifting regulatory and business requirements into production code.",
+        "Mentored 3 junior engineers on XQuery development and DaaS system architecture, onboarding them to the codebase and reviewing their work, cutting their ramp-up time from roughly 4 weeks to 2 weeks."
+]
     }
   ],
   "services": [
