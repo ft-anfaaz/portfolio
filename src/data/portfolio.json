@@ -104,7 +104,7 @@
   "services": [
     {
       "title": "Software Development",
-      "description": "Building maintainable applications and enterprise components using Java, Python, SQL, XQuery, TypeScript, and modern development frameworks."
+      "description": "Building maintainable applications and enterprise components using Java, Python, SQL, XQuery, TypeScript, RESTful APIs and modern development frameworks."
     },
     {
       "title": "AI & Machine Learning",
