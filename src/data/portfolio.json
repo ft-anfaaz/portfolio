@@ -63,7 +63,9 @@
           "Microsoft SQL Server",
           "MySQL",
           "SVN",
-          "Jenkins"
+          "Jenkins",
+          "Claude Code",
+          "Codex"
         ]
       },
       {
